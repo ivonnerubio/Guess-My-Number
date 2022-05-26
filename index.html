@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="style.css" />
   <title>Number Guesser!</title>
@@ -12,24 +13,32 @@
 <body>
   <header>
     <h1>Number Guesser!</h1>
-    <p class="between">(Between 1 and 20)</p>
+    <section class="right">
+      <p class="label-highscore">
+        🚀 Highscore: <span class="highscore">0</span>
+      </p>
+      <p class="label-score">⭐️ Score: <span class="score">20</span></p>
+    </section>
+    <left>
+      <p class="between">(Between 1 and 20)</p>
+    </left>
+
     <div class="number">?</div>
   </header>
   <main>
-    <section class="right">
+    <section class="center">
       <p class="message">Start guessing...</p>
-      <p class="label-score">💯 Score: <span class="score">20</span></p>
-      <p class="label-highscore">
-        🥇 Highscore: <span class="highscore">0</span>
-      </p>
+    </section>
+
+    <section>
+      <input type="number" class="guess" />
+    </section>
+
+    <div class>
+      <button class="btn check">Check!</button>
+    </div>
     </section>
     <section class="center">
-      <input type="number" class="guess" />
-      <div style="text-align:center">
-        <button class="btn check">Check!</button>
-      </div>
-    </section>
-    <section class="left">
       <button class="btn again">Play Again?</button>
     </section>
 
