@@ -140,6 +140,12 @@ h1 {
 
 @media screen and (max-width: 481px) {
 
+  input,
+  select,
+  textarea {
+    font-size: 16px;
+  }
+
 
   .label-score {
     top: 0rem;
