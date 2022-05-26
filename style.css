@@ -74,7 +74,7 @@ h1 {
 }
 
 .between {
-  font-size: 1.4rem;
+  font-size: 1.4vw;
   position: absolute;
   top: 2rem;
   right: 2rem;
@@ -92,8 +92,8 @@ h1 {
   font-family: inherit;
   color: inherit;
   font-size: 4vw;
-  padding: 2.5rem;
-  width: 30vw;
+  padding: 1rem;
+  width: 20vw;
   text-align: center;
   display: block;
   margin-bottom: 3vw;
@@ -103,9 +103,10 @@ h1 {
   border: none;
   background-color: #D6BB98;
   color: #3B3C54;
-  font-size: 2rem;
+  font-size: 1.5vw;
   font-family: inherit;
-  padding: 2rem 3rem;
+  padding: 1vw 1.5vw;
+  margin-bottom: 1.5vw;
   cursor: pointer;
 }
 
@@ -115,8 +116,10 @@ h1 {
 
 
 .message {
-  margin-bottom: 8rem;
+  margin-bottom: 3vw;
+  font-size: 1.5vw;
   height: 3rem;
+  text-align: center;
 }
 
 .label-score {
@@ -167,5 +170,36 @@ h1 {
     right: 0rem;
   }
 
+  .message {
+    font-size: 3vw;
+    top: 2rem;
+    margin-top: 15vw;
+    margin-bottom: 8rem;
+  }
+
+  .guess {
+    background: none;
+    position: center;
+    border: 1.5vw solid #D6BB98;
+    font-family: inherit;
+    color: inherit;
+    font-size: 4vw;
+    padding: 1rem;
+    width: 30vw;
+    text-align: center;
+    display: block;
+    margin-bottom: 10vw;
+  }
+
+  .btn {
+    border: none;
+    background-color: #D6BB98;
+    color: #3B3C54;
+    font-size: 4vw;
+    font-family: inherit;
+    padding: 2vw 3vw;
+    margin-bottom: 5vw;
+    cursor: pointer;
+  }
 
 }

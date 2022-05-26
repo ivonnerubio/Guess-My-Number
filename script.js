@@ -65,6 +65,11 @@ document.querySelector('.again').addEventListener('click', function () {
     document.querySelector('.number').textContent = '?';
     document.querySelector('.guess').value = '';
     document.querySelector('body').style.backgroundColor = '#3B3C54';
+    document.querySelector('.btn').style.color = '#3B3C54';
+    document.querySelector('.check').style.color = '#3B3C54';
+    document.querySelector('.again').style.color = '#3B3C54';
+    document.querySelector('.number').style.color = '#3B3C54';
+
     displayMessage('Start guessing...');
     score = 20;
     displayScore(score);
